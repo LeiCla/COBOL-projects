@@ -1,0 +1,12 @@
+//API4S       JOB (),API4,CLASS=A,MSGCLASS=H,MSGLEVEL=(1,1),
+//                NOTIFY=&SYSUID
+//S1          EXEC PGM=IEFBR14
+//FIC1        DD DSN=API4.ACTIF.SEQ1,
+//               DISP=(,KEEP),
+//               SPACE=(CYL,(1,1)),
+//               LRECL=80,RECFM=FB,BLKSIZE=23200,DSORG=PS
+//FIC2        DD DSN=API4.ACTIF.PDS1,
+//               DISP=(,KEEP),
+//               SPACE=(CYL,(1,1,10)),
+//               LRECL=80,RECFM=FB,BLKSIZE=23200,DSORG=PO
+//*
